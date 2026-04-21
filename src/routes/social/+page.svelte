@@ -56,7 +56,7 @@
 			name: 'Resume',
 			icon: ResumeIcon,
 			color: '#34C759',
-			url: 'https://drive.google.com/file/d/1ymB83qcWbLq1q9gklbPEvYtudrOIax4T/view?usp=sharing',
+			url: 'https://drive.google.com/file/d/1lmADDrK2g476At3jOBU76YPFjw_OU6MJ/view?usp=sharing',
 			description: 'Download my resume',
 			category: 'Documents',
 			gradient: {

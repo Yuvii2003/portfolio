@@ -12,6 +12,8 @@
 	import * as omiraTechImages from '$lib/assets/projects/omira-tech/index';
 	import * as showBoxImages from '$lib/assets/projects/show-box/index';
 	import * as portfolioImages from '$lib/assets/projects/portfolio/index';
+	import * as circusGameImages from '$lib/assets/projects/circus-game/index';
+	import* as CyberscapeImages from '$lib/assets/projects/cyberscape/index';
 	import InteractiveHoverButton from '$lib/components/magic/interactive-hover-button/interactive-hover-button.svelte';
 	import SimpleIcon from '$lib/components/simple-icon.svelte';
 	import { Button } from '$lib/components/ui/button';
@@ -65,6 +67,34 @@
 			tech: ['Svelte', 'TypeScript', 'Tailwind CSS', 'Drizzle', 'PostgreSQL', 'AWS S3',],
 			link: 'https://showboxvit.vercel.app/',
 			github: 'https://github.com/Yuvii2003/ShowBox'
+		},
+
+		{
+			id: 'CyberScape',
+			name: 'CyberScape',
+			description: 'An innovative way to spread awareness about cyber security via Gameification ',
+			images: [
+				CyberscapeImages.image1,
+				CyberscapeImages.image2,
+				CyberscapeImages.image3,
+				CyberscapeImages.image4,
+				CyberscapeImages.image5,
+			],
+			tech: ['Unity 2D', 'Pixelorama', 'C#'],
+			link: 'https://yuvii2003.itch.io/cyberscape',
+			github: 'https://github.com/Yuvii2003/CyberScape'
+		},
+
+		{
+			id: 'Circus Game',
+			name: 'Circus Game',
+			description: 'Recreating an Old game From Childhood Mmory ',
+			images: [
+				circusGameImages.image1,
+				
+			],
+			tech: ['Unity 2D', 'Pixelorama', 'C#'],
+			link: 'https://yuvii2003.itch.io/circus-game',
 		},
 	];
 
